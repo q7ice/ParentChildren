@@ -1,0 +1,30 @@
+.Parent {
+  border: 2px solid black;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.ParentTitle {
+  font-size: 1.5rem;
+}
+
+.ParentInfo {
+  font-size: 1rem;
+}
+.ParentHide {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+  button {
+    border-radius: 0;
+  }
+}
+
+.ParentSave {
+  display: flex;
+  justify-content: center;
+
+  button {
+    border-radius: 0;
+  }
+}
