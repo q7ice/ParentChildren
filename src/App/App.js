@@ -4,12 +4,12 @@ import { random } from 'lodash';
 import Parent from '../Parent';
 
 function genStartParents() {
-  const parentCount = random(1, 5);
+  const parentCount = random(1, 2);
   const parents = [];
 
   function genStartChildren() {
     const children = [];
-    const childCount = random(20, 20);
+    const childCount = random(2, 2);
     for (let i = 0; i < childCount; i++) {
       children.push({
         id: i + 1,

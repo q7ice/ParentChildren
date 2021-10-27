@@ -13,6 +13,7 @@ function Parent({
     changes = {
       ...changes,
       [id]: {
+        ...changes[id],
         [fieldName]: value,
       },
     };
